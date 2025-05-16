@@ -3,7 +3,7 @@ import os
 
 load_dotenv()
 
-MONGO_CONNECTION_STRING = os.getenv("MONGO_CONNECTION_STRING")
+MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = "Analytics"
 COLLECTION_NAME = "dau"
 
