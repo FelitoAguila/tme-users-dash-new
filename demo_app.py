@@ -8,7 +8,7 @@ from dateutil.relativedelta import relativedelta
 import plotly.graph_objects as go
 from config import MONGO_URI, DB_NAME, COLLECTION_NAME
 
-client = pymongo.MongoClient(MONGO_CONNECTION_STRING)
+client = pymongo.MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
