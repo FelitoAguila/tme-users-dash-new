@@ -4,4 +4,4 @@ plotly
 pymongo
 gunicorn
 python-dateutil
-
+dotenv
