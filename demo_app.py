@@ -14,6 +14,7 @@ collection = db[COLLECTION_NAME]
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server = app.server 
 
 # Layout
 app.layout = html.Div([
