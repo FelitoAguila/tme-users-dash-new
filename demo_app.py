@@ -279,7 +279,6 @@ def update_graphs(start_date, end_date):
 
     return dau_fig, mau_fig, ndu_fig, nmu_fig, interactions_day_fig, interactions_month_fig
 
-server = app.server  # para que Gunicorn pueda encontrarlo
 # Run the app
 if __name__ == '__main__':
     app.run(debug=True)
