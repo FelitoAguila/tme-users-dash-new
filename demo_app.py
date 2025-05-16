@@ -6,8 +6,11 @@ import pymongo
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 import plotly.graph_objects as go
+from config import MONGO_CONNECTION_STRING, DB_NAME, COLLECTION_NAME
 
-
+client = pymongo.MongoClient(MONGO_CONNECTION_STRING)
+db = client[DB_NAME]
+collection = db[COLLECTION_NAME]
 
 # Initialize Dash app
 app = dash.Dash(__name__)
