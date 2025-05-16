@@ -1,1 +1,7 @@
+dash
+pandas
+plotly
+pymongo
+gunicorn
+python-dateutil
 
